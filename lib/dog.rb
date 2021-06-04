@@ -12,9 +12,8 @@ class Dog
   end 
   
   def self.print_all 
-    @@all.instance_variables.map do |attribute|
-      { attribute => @@all.instance_variable_get(attribute) }
-    end
+    @@all.each do |instance|
+      instance.
   end
   
   def self.clear_all
