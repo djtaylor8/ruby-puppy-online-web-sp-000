@@ -13,7 +13,7 @@ class Dog
   
   def self.print_all 
     @@all.each do |instance|
-      puts instance.
+      puts instance.class_variable.get(:@name)
   end
   
   def self.clear_all
