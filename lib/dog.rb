@@ -13,11 +13,11 @@ class Dog
   
   def self.print_all 
     @@all.each do |instance|
-      instance.
+      puts instance.
   end
   
   def self.clear_all
-    @@all.clear 
+   @@all.clear 
   end 
   
 end
